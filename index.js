@@ -4,7 +4,7 @@ let school = {
     mascot: "dragon",
 };
 
-let string = "${name} has an average class size of ${average class size} an their mascot is ${mascot}";
+let string = "${school.name} has an average class size of ${school[average class size]} an their mascot is ${school.mascot}";
 document.getElementById("result").innerHTML = string;
 
 //should assign the innerHTML of the HTML element with
